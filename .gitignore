@@ -72,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Unreal_Study/Intermediate/ProjectFiles/UE5.vcxproj
