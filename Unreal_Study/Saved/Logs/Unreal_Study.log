@@ -1343,3 +1343,46 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.27-15.34.10:665][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.03.27-15.34.10:734][  0]LogAutomationController: Ignoring very large delta of 17309935.16 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2023.03.27-15.35.57:856][214]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.160 and deleted 0 files with total size 0 MiB. Scanned 1900 files in 1889 folders with total size 55 MiB.
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: ================================================
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Total job queries 87, among them cache hits 2 (2.30%)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Tracking 75 distinct input hashes that result in 67 distinct outputs (89.33%)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: RAM used: 0.72 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.04%
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Shaders Compiled: 75
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Jobs assigned 83, completed 75 (90.36%)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Average time worker was idle: 86.18 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Time job spent in pending queue: average 2.06 s, longest 10.81 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Job execution time: average 6.47 s, max 13.88 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Job life time (pending + execution): average 8.73 s, max 13.97
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.22 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Jobs were issued in 44 batches (only local compilation was used), average 1.89 jobs/batch
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Average processing rate: 4.62 jobs/sec
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Total thread time: 93.42 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Total thread preprocess time: 3.81 s
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Percentage time preprocessing: 4.08%
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Effective parallelization: 5.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.00 sec, max 2.00 sec, min 2.00 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.80 sec, max 1.80 sec, min 1.80 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.79 sec, max 2.52 sec, min 1.24 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.75 sec, max 1.75 sec, min 1.75 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 32.64% of total time (compiled   17 times, average 1.79 sec, max 2.52 sec, min 1.24 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.76% of total time (compiled    5 times, average 1.08 sec, max 1.15 sec, min 0.97 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.39% of total time (compiled    5 times, average 1.01 sec, max 1.29 sec, min 0.88 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                                 FLumenCardVS - 2.97% of total time (compiled    3 times, average 0.92 sec, max 1.03 sec, min 0.74 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 2.90% of total time (compiled    5 times, average 0.54 sec, max 0.67 sec, min 0.49 sec)
+[2023.03.27-15.40.50:990][149]LogShaderCompilers: Display: ================================================
+[2023.03.27-15.41.05:272][387]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.03.27-15.42.05:892][565]LogViewport: Scene viewport resized to 1349x902, mode Windowed.
+[2023.03.27-15.42.11:599][166]LogViewport: Scene viewport resized to 1348x902, mode Windowed.
+[2023.03.27-15.42.11:630][168]LogViewport: Scene viewport resized to 1333x902, mode Windowed.
+[2023.03.27-15.42.11:672][170]LogViewport: Scene viewport resized to 1286x902, mode Windowed.
+[2023.03.27-15.42.11:732][172]LogViewport: Scene viewport resized to 1227x902, mode Windowed.
+[2023.03.27-15.42.11:780][174]LogViewport: Scene viewport resized to 1215x902, mode Windowed.
+[2023.03.27-15.42.34:186][314]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Character
+[2023.03.27-15.42.34:186][314]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Character
+[2023.03.27-15.42.34:197][314]LogActorFactory: Actor Factory spawned Class /Script/Engine.Character as actor: Character /Temp/Untitled_1.Untitled_1:PersistentLevel.Character_UAID_2CF05DAD5852897301_1621822711
+[2023.03.27-15.42.34:203][314]LogActorFactory: Actor Factory spawned Class /Script/Engine.Character as actor: Character /Temp/Untitled_1.Untitled_1:PersistentLevel.Character_UAID_2CF05DAD5852897301_1621822711
