@@ -1,9 +1,5 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Unreal_StudyEditor Win64 Development -Project="C:\Git_Repository\Unreal_Study\Unreal_Study\Unreal_Study.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Git_Repository\Unreal_Study).
-  Parsing headers for Unreal_StudyEditor
-    Running Internal UnrealHeaderTool C:\Git_Repository\Unreal_Study\Unreal_Study\Unreal_Study.uproject C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\Unreal_StudyEditor\Development\Unreal_StudyEditor.uhtmanifest -WarningsAsErrors -installed
-  Total of 2 written
-  Reflection code generated for Unreal_StudyEditor in 0.9276178 seconds
   Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_5.1\Engine\Build\BatchFiles\Build.bat" Unreal_StudyEditor Win64 Development -Project="C:\Git_Repository\Unreal_Study\Unreal_Study\Unreal_Study.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).

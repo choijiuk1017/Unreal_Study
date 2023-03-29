@@ -25,6 +25,11 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class UCameraComponent* CameraComp;
 
+
+	void MoveForward(float InputAxis);
+
+	void MoveRight(float InputAxis);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

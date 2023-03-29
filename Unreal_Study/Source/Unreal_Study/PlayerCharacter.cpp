@@ -52,3 +52,16 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
+
+void APlayerCharacter::MoveForward(float AxisValue)
+{
+	if ((Controller != nullptr) && (AxisValue != 0.0f))
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+	}
+}
