@@ -30,10 +30,10 @@
     <Filter Include="Source\Unreal_Study">
       <UniqueIdentifier>{08533E23-2D9C-3779-9863-E932C910637D}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Unreal_Study\PlayerCharactor.cpp">
+    <ClCompile Include="..\..\Source\Unreal_Study\PlayerCharacter.cpp">
       <Filter>Source\Unreal_Study</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Unreal_Study\PlayerCharactor.h">
+    <ClInclude Include="..\..\Source\Unreal_Study\PlayerCharacter.h">
       <Filter>Source\Unreal_Study</Filter>
     </ClInclude>
     <None Include="..\..\Source\Unreal_Study\Unreal_Study.Build.cs">

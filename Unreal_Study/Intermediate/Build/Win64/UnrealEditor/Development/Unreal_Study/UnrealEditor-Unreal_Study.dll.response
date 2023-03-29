@@ -34,10 +34,10 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\Unreal_StudyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\PlayerCharactor.gen.cpp.obj"
+"C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\PlayerCharacter.gen.cpp.obj"
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\Unreal_Study.init.gen.cpp.obj"
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\Unreal_StudyGameModeBase.gen.cpp.obj"
-"C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\PlayerCharactor.cpp.obj"
+"C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\PlayerCharacter.cpp.obj"
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\Unreal_Study.cpp.obj"
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\Unreal_StudyGameModeBase.cpp.obj"
 "C:\Git_Repository\Unreal_Study\Unreal_Study\Intermediate\Build\Win64\UnrealEditor\Development\Unreal_Study\Default.rc2.res"
