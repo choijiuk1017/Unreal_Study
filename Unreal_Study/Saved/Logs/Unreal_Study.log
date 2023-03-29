@@ -1416,3 +1416,18 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.29-14.43.17:559][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.03.29-14.43.17:574][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
 [2023.03.29-14.43.17:603][658]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.03.29-14.50.40:755][365]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Map/Bp_PlayerCharacter.Bp_PlayerCharacter
+[2023.03.29-14.50.40:756][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-14.50.42:569][365]LogStaticMesh: Display: PhAT_FloorBox 스태틱 메시 빌드 중...
+[2023.03.29-14.50.42:571][365]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2023.03.29-14.50.42:675][365]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2023.03.29-14.50.42:760][365]LogViewport: Scene viewport resized to 738x513, mode Windowed.
+[2023.03.29-14.50.50:363][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.29-14.50.50:412][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Bp_PlayerCharacter" FILE="../../../../../../Git_Repository/Unreal_Study/Unreal_Study/Content/Map/Bp_PlayerCharacter.uasset" SILENT=true
+[2023.03.29-14.50.50:422][960]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.009807 seconds
+[2023.03.29-14.50.50:424][960]LogSerialization: UsePackageTrailer: 'true'
+[2023.03.29-14.50.50:426][960]LogSavePackage: Moving output files for package: /Game/Map/Bp_PlayerCharacter
+[2023.03.29-14.50.50:427][960]LogSavePackage: Moving '../../../../../../Git_Repository/Unreal_Study/Unreal_Study/Saved/Bp_PlayerCharacter4F9AB5394BE789AC4B7D3BBBCBFC9DE0.tmp' to '../../../../../../Git_Repository/Unreal_Study/Unreal_Study/Content/Map/Bp_PlayerCharacter.uasset'
+[2023.03.29-14.50.50:433][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms
+[2023.03.29-14.50.50:438][960]AssetCheck: New page: 에셋 저장:  Bp_PlayerCharacter
+[2023.03.29-14.50.50:438][960]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Map/Bp_PlayerCharacter.Bp_PlayerCharacter 유효성 검사 중

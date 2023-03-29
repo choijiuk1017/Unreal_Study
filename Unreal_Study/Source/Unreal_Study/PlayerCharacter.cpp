@@ -15,6 +15,20 @@ APlayerCharacter::APlayerCharacter()
 
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
 
+	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -90.0f), FQuat(FRotator(0.0f, -90.0f, 0.0f)));
+
+	SpringArmComp->SetupAttachment(GetMesh());
+
+	CameraComp->SetupAttachment(SpringArmComp, USpringArmComponent::SocketName);
+
+	SpringArmComp->bUsePawnControlRotation = true;
+
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	GetCharacterMovement()->bUseControllerDesiredRotation = true;
+
+	GetCharacterMovement()->bIgnoreBaseRotation = true;
+
 }
 
 // Called when the game starts or when spawned
