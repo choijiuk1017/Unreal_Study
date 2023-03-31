@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Git_Repository\\Unreal_Study\\Unreal_Study\\Source\\Unreal_Study\\Unreal_Study.Build.cs",
-		"C:\\Git_Repository\\Unreal_Study\\Unreal_Study\\Source\\Unreal_Study.Target.cs",
-		"C:\\Git_Repository\\Unreal_Study\\Unreal_Study\\Source\\Unreal_StudyEditor.Target.cs"
-	],
-	"EngineVersion": "5.1.1"
-}
