@@ -20,17 +20,17 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	class USpringArmComponent* SpringArmComp;
+		class USpringArmComponent* SpringArmComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	class UCameraComponent* CameraComp;
+		class UCameraComponent* CameraComp;
 
 
 	void MoveForward(float InputAxis);
 
 	void MoveRight(float InputAxis);
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
